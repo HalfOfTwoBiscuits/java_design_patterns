@@ -1,3 +1,4 @@
+package src.decorator;
 public class WidgetImplementation implements WidgetGraphicHandler {
     // Implementation of an arbitary widget for the demonstration.
     // It can be rendered on its own, or passed to the constructor of an

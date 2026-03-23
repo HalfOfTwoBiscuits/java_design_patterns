@@ -1,3 +1,4 @@
+package src.decorator;
 public class ScrollbarWidgetDecorator extends AbstractWidgetDecorator {
     // A decorator for a vertical scrollbar.
 

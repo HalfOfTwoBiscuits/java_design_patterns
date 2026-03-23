@@ -1,3 +1,4 @@
+package src.decorator;
 // Example of the decorator design pattern.
 
 public class App {

@@ -1,3 +1,4 @@
+package src.decorator;
 public abstract class AbstractWidgetDecorator implements WidgetGraphicHandler {
     // Base class for the decorators that add functionality to a widget.
 

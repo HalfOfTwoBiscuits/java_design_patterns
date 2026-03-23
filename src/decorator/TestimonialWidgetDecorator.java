@@ -1,3 +1,4 @@
+package src.decorator;
 public class TestimonialWidgetDecorator extends AbstractWidgetDecorator {
     // A decorator for a testimonial.
     // It could be applied to a widget multiple times to show various testimonials together.

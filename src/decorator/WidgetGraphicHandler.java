@@ -1,3 +1,4 @@
+package src.decorator;
 public interface WidgetGraphicHandler {
     // This interface specifies the `render` method, which
     // constructs and returns some graphics for a widget.
