@@ -15,6 +15,6 @@ public abstract class AbstractWidgetDecorator implements WidgetGraphicHandler {
     @Override
     public String render() {
         // This method renders the previous graphic in the order.
-        return toRenderFirst.render();
+        return decoratedHandler.render();
     }
 }
