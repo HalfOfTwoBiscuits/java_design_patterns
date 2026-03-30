@@ -1,5 +1,6 @@
-package src.decorator;
-public class ScrollbarWidgetDecorator extends AbstractWidgetDecorator {
+package decorator;
+
+class ScrollbarWidgetDecorator extends AbstractWidgetDecorator {
     // A decorator for a vertical scrollbar.
 
     public ScrollbarWidgetDecorator(WidgetGraphicHandler decorated) {

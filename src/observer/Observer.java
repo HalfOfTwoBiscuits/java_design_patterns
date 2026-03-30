@@ -1,5 +1,5 @@
-package src.observer;
+package observer;
 
-public interface Observer {
+interface Observer {
     public void update();
 }

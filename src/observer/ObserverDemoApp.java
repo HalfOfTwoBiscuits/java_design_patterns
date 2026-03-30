@@ -1,7 +1,7 @@
-package src.observer;
+package observer;
 
-public class App {
-    public static void main(String[] args) {
+public class ObserverDemoApp {
+    public static void test() {
         Product chair = new Product("Wonderful Chair", 2);
 
         ProductStockObserver stockObserver = new ProductStockObserver(chair);

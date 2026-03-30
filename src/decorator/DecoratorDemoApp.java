@@ -1,9 +1,9 @@
-package src.decorator;
+package decorator;
 // Example of the decorator design pattern.
 
-public class App {
+public class DecoratorDemoApp {
     // Main class.
-    public static void main(String[] args) {
+    public static void test() {
 
         // Create new object for the widget.
         WidgetGraphicHandler handler = new WidgetImplementation();
@@ -21,6 +21,6 @@ public class App {
         String graphic = handler.render();
 
         // Display graphic onscreen
-        System.out.print(graphic);
+        System.out.println(graphic);
     }
 }

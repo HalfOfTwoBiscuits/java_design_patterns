@@ -1,6 +1,6 @@
-package src.observer;
+package observer;
 
-public class ProductStockObserver implements Observer {
+class ProductStockObserver implements Observer {
     private Product product;
 
     ProductStockObserver(Product subject) {

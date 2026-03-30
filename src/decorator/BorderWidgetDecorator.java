@@ -1,5 +1,6 @@
-package src.decorator;
-public class BorderWidgetDecorator extends AbstractWidgetDecorator {
+package decorator;
+
+class BorderWidgetDecorator extends AbstractWidgetDecorator {
     // A decorator for a border at the edge of a widget.
 
     public BorderWidgetDecorator(WidgetGraphicHandler decorated) {

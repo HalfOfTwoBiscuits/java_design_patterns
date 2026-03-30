@@ -1,8 +1,8 @@
-package src.observer;
+package observer;
 
 import java.util.ArrayList;
 
-public abstract class Subject {
+abstract class Subject {
     private ArrayList<Observer> observers = new ArrayList<Observer>();
     public void attach(Observer obs) {
         observers.add(obs);
