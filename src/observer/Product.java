@@ -1,8 +1,6 @@
 package observer;
 
-import java.lang.UnsupportedOperationException;
-
-class Product extends Subject {
+class Product extends AbstractSubject {
     private String name;
     private int amountInStock;
 
