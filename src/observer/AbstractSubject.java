@@ -3,7 +3,8 @@ package observer;
 import java.util.ArrayList;
 
 abstract class AbstractSubject {
-    private ArrayList<ObserverInterface> observers = new ArrayList<ObserverInterface>();
+    private final ArrayList<ObserverInterface> observers = new ArrayList<>();
+    
     public void attach(ObserverInterface obs) {
         observers.add(obs);
     }

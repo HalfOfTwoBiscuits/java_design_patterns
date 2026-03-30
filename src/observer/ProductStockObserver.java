@@ -1,6 +1,6 @@
 package observer;
 
-class ProductStockObserver implements ObserverInterface<Product> {
+class ProductStockObserver implements ObserverInterface {
     private final Customer customer;
 
     public ProductStockObserver(Customer customerToNotify) {
@@ -8,7 +8,8 @@ class ProductStockObserver implements ObserverInterface<Product> {
     }
 
     @Override
-    public void update(Product product) {
-        System.out.println("Hey " + customer.getName() + ", " + product.getName() + " is back in stock again!");
+    public void update(AbstractSubject product) {
+        Product p = (Product) product;
+        System.out.println("Hey " + customer.getName() + ", " + p.getName() + " is back in stock again!");
     }
 }

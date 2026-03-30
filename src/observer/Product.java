@@ -1,7 +1,7 @@
 package observer;
 
 class Product extends AbstractSubject {
-    private String name;
+    private final String name;
     private int amountInStock;
 
     public Product(String productName, int stock) {
